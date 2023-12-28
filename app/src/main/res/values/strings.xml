@@ -5,5 +5,8 @@
     <string name="new_sentece">Nova Frase</string>
     <string name="lets_begin">Vamos Começar?</string>
     <string name="what_is_your_name">Qual seu nome ?</string>
+    <string name="user">Usuário</string>
     <string name="to_save">Salvar</string>
+
+    <string name="validation_mandatory_name">Informe seu nome.</string>
 </resources>

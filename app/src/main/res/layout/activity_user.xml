@@ -27,6 +27,7 @@
         android:fontFamily="@font/cabin"
         android:gravity="center"
         android:hint="@string/what_is_your_name"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="24sp" />
 
