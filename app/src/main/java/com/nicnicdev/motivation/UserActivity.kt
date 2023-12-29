@@ -1,6 +1,8 @@
 package com.nicnicdev.motivation
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -19,16 +21,25 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.buttonSave.setOnClickListener(this)
     }
+
     override fun onClick(v: View) {
         if (v.id == R.id.button_save) {
             handleSave()
-
         }
     }
+
     private fun handleSave() {
         val name = binding.editWhatIsYourName.text.toString()
         if (name != "") {
-            startActivity(Intent(this, MainActivity::class.java)) // responsavel por fazer a navegação entre as telas.
+
+            SecurityPreferences(this).storeString("USER_NAME", name) // responsavel por salvar o nome do usuário
+
+            startActivity(
+                Intent(
+                    this,
+                    MainActivity::class.java
+                )
+            ) // responsavel por fazer a navegação entre as telas.
         } else {
             Toast.makeText(this, R.string.validation_mandatory_name, Toast.LENGTH_SHORT).show()
         }
