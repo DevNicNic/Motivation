@@ -1,4 +1,4 @@
-package com.nicnicdev.motivation
+package com.nicnicdev.motivation.Ui.Infra
 
 import android.content.Context
 import android.content.SharedPreferences

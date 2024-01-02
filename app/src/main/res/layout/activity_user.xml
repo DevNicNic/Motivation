@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/purble"
     android:padding="16dp"
-    tools:context=".UserActivity">
+    tools:context=".Ui.UserActivity">
 
     <TextView
         android:id="@+id/text_let_begin"
