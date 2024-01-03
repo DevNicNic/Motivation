@@ -19,26 +19,26 @@
         android:paddingBottom="16dp">
 
         <ImageView
+            android:id="@+id/image_all"
             android:layout_width="0dp"
             android:layout_height="32dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_all_inclusive"
-            app:tint="@color/white" />
+            android:src="@drawable/ic_all_inclusive" />
 
         <ImageView
+            android:id="@+id/image_happy"
             android:layout_width="0dp"
             android:layout_height="32dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_happy"
-            app:tint="@color/dark_purble" />
+            android:src="@drawable/ic_happy" />
 
 
         <ImageView
+            android:id="@+id/image_sunny"
             android:layout_width="0dp"
             android:layout_height="32dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_sunny"
-            app:tint="@color/dark_purble" />
+            android:src="@drawable/ic_sunny" />
 
     </LinearLayout>
 
