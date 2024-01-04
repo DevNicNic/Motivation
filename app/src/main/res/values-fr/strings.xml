@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Motivation</string>
+    <string name="hello_kotlin">Bonjour, Kotlin!</string>
+    <string name="only_those_who_give_up_cant_do_it">Seuls ceux qui abandonnent ne peuvent pas le faire.</string>
+    <string name="new_sentece">Nouvelle phrase</string>
+    <string name="lets_begin">Commencer</string>
+    <string name="what_is_your_name">Quel est votre nom?</string>
+    <string name="user">Utilisateur</string>
+    <string name="to_save">Sauver</string>
+
+    <string name="validation_mandatory_name">Entrez votre nom.</string>
+</resources>
